@@ -1,7 +1,8 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
     background-color: #48f;
+    cursor: none;
 }
 #container {
     position: absolute;
