@@ -16,7 +16,8 @@ function setup() {
 
 function draw() {
     for(var i = 0; i < dots.length; i++) {
-        offset = map(i, 0, dots.length-1, 0, PI);
-        select('.'+i).style('top', map(sin(frameCount / 30 + offset), -1, 1, -25, 25)+'vmin');
+        speed = millis() * .0015;
+        offset = map(i, 0, dots.length, 0, PI);
+        select('.'+i).style('top', map(sin(speed + offset), -1, 1, -25, 25)+'vh');
     }
 }
