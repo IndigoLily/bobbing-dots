@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #48f;
+}
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f8;
+    white-space: nowrap;
+}
+.dot {
+    position: relative;
+    height: 10vmin;
+    width: 10vmin;
+    margin: 5vmin;
+    background-color: #fff;
+    background-color: transparent;
+    border: .5vmin solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    /*box-shadow: 0 0 15vmin -2vmin #000;*/
+}
